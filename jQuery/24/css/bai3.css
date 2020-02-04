@@ -1,0 +1,78 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.ndkhoi {
+    color: gray;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.tdkhoi img {
+    float: right;
+    transition: 0.4s;
+    margin-right: -101px;
+    margin-top: 42px;
+}
+
+h2.tdkhoi {
+    height: 88px;
+    font-size: 70px;
+    font-weight: 300;
+    color: #464646;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+h2.tdkhoi:hover img {
+    margin-right: 0px;
+}
+
+h2.tdkhoi:hover {
+    color: lightblue;
+}
+
+._1motkhoi {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.44);
+    padding-bottom: 42px;
+    margin-bottom: 40px;
+}
+
+.vaicaianh {
+    overflow: hidden;
+}
+
+img.anhnho {
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.noidung {
+    width: 37%;
+    margin: auto;
+    font-family: 'Josefin Slab', serif;
+}
+
+body {
+    background: url(../images/nen.png);
+}
+
+h1.tieude {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 100;
+    text-align: center;
+    margin: 17px 0;
+    font-size: 37px;
+    margin-bottom: 100px;
+}
+
+.tdkhoi.xanh {color:lightblue;}
+
+h2.tdkhoi.xanh img {
+    margin-right: 0;
+    transform: rotate(180deg);
+    margin-top: 37px;
+}

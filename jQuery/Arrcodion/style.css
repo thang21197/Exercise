@@ -1,0 +1,11 @@
+h2{
+	background: lightblue;
+	padding: 0px 10px;
+}
+.accordion-box{
+	border:1px solid #333;
+	border-radius: 5px;
+}
+.accordion-box p{
+	padding: 10px;
+}

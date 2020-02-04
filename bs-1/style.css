@@ -1,0 +1,40 @@
+.navbar{
+	background: #101010;
+}
+.navbar .navbar-nav>li>a.nav-link{
+    color: #9d9d9d !important; 
+}
+.container.content>.row{
+	margin-top: 20px;
+}
+.container.content>.row .box-image{
+	border-radius: 7px;
+    overflow: hidden;
+}
+.container.content>.row.top-layout .box-text .btn
+{
+	color: #fff;
+    background-color: #337ab7;
+    border-color: transparent;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.divider{
+	width: 100%;
+    display: block;
+    height: 1px;
+    background: #ddd;
+    margin-top: 15px;
+}
+.box-text-well{
+	text-align: center;
+	font-size: 14px;
+	background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    padding: 19px;
+}
+.container.content>.bottom-layout .col-md-4{
+	padding-top: 30px;
+}
