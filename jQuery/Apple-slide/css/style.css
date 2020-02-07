@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+.custom-silder{
+        height: 500px;
+    position: relative;
+}
+.custom-silder .slider-button  .button-left{
+	background: url(../images/trai.jpg) center no-repeat;
+	width: 50px;
+	height: 100px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 50%;
+    margin-top: -50px;
+}
+.custom-silder .slider-button  .button-right{
+	background: url(../images/phai.jpg) center no-repeat;
+	width: 50px;
+	height: 100px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 50%;
+    margin-top: -50px;
+}
+.container-fluid{
+	padding: 0;
+}
+.slider-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+}
+.slider-img.active{
+	visibility: visible;
+    opacity: 1;
+}
+.slider-img img{
+	width: 100%;
+	height: 100%;
+}
+.list-bullet>li{
+	list-style: none;
+    
+}
+.list-bullet>li>a{
+	display: block;
+	width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background: #fff;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+.slider-bullet{
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.list-bullet
+{
+	display: flex;
+    text-align: center;
+    justify-content: center;
+}
