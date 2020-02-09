@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.timkiem {
+    text-align: center;
+    margin: 16px 0px;
+}
+
+.timkiem h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.timkiem input {
+    height: 25px;
+    font-size: 16px;
+}
+
+.timkiem {}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    width: 1170px;
+    margin: auto;
+    /* padding: 10px; */
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+header ul li {
+    list-style: none;
+    /* display: flex; */
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    background: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+html, body{
+    width: 100%;
+}
+.content{
+    width: 1170px;
+    overflow: hidden;
+    margin: auto;
+}
+.content ul li{
+        float: left;
+    width: 25%;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.content ul li img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
